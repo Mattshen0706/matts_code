@@ -34,7 +34,7 @@ IF YOU ARE APPLYING STYLE INTERNALLY INSIDE THE HTML CODE YOU NEED TO CREATE A <
 
 # USING ID and CLASS
 
-### ID selector
+### ID selector 
 
 giving a block an ID will allow you to make modifications to a specific part of the program 
 
