@@ -29,20 +29,20 @@
 
 
 
-player=int(input("How many players this round:"))
-sum=0
-winner=0
-max_price=0
-property=0
-while player<0:
-    player=int(input("Please enter a valid number of players:"))
+# player=int(input("How many players this round:"))
+# sum=0
+# winner=0
+# max_price=0
+# property=0
+# while player<0:
+#     player=int(input("Please enter a valid number of players:"))
 
-for num in range(1,player+1):
-   while property!="DONE":
-        property=float(input("Enter the value of property/lasset, or DONE to finish:"))
-        sum+=property
-    print("Player", num, "has", sum, "dollars")
-    sum=0
+# for num in range(1,player+1):
+#    while property!="DONE":
+#         property=float(input("Enter the value of property/lasset, or DONE to finish:"))
+#         sum+=property
+#     print("Player", num, "has", sum, "dollars")
+#     sum=0
    
 
 
