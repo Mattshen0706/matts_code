@@ -1,0 +1,23 @@
+.horizontal_slider{
+    width: 100vw;
+    height:30vh;
+    position:fixed;
+    background-color: black;
+    color:white;
+    overflow:auto;
+    white-space: nowrap; 
+
+/* white-space allows for  */
+
+}
+
+.photosetting{
+    display:inline-block;
+
+}
+
+.photos{
+    height:30vh;
+
+
+}
