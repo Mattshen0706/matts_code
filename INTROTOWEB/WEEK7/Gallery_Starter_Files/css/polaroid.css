@@ -1,9 +1,11 @@
+body{
+    background-color: blanchedalmond;
+}
 .horizontal_slider{
     width: 100vw;
-    height:30vh;
-    position:fixed;
-    background-color: black;
-    color:white;
+    height:45vh;
+    position:relative;
+
     overflow:auto;
     white-space: nowrap; 
 
@@ -14,10 +16,18 @@
 .photosetting{
     display:inline-block;
 
+
 }
 
 .photos{
     height:30vh;
-
-
+    padding-top:3vh;
+    padding-left:2vh;
+    padding-right:2vh;
+    padding-bottom:10vh;
+    margin-top:3vh;
+    margin-left:2vh;
+    margin-right:2vh;
+    margin-bottom:10vh;
+    background-color: white;
 }
