@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.inputbox{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-size: 2.5vw;
+    border-color: none;
+    border-radius: 2vw;
+}
+
+.quantitybox{
+    text-align: center;
+    margin-top:1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 1.5vw;
+    border-color: none;
+    border-radius: 2vw;
+}
+
+
+.submitbox{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:1vw;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    font-size: 1.5vw;
+    border-color: none;
+    border-radius: 2vw;
+}
+
+.inputbox:focus{
+    outline: none;      /* Remove default outline and use border or box-shadow */
+    box-shadow: 0 0 0 2px rgb(0, 0, 0); /* Full freedom. (works also with border-radius) */
+  }
+
+.submitbox:hover{
+    background-color: rgb(255, 0, 0);
+    outline: none;   
+}
+
+
+.quantitybox:focus{
+    outline: none;      /* Remove default outline and use border or box-shadow */
+    box-shadow: 0 0 0 2px rgb(0, 0, 0); /* Full freedom. (works also with border-radius) */
+  }
+
+.text{
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myList{
+    font-size: 3vw;
+    list-style-type: none;
+}
+
+li{
+    font-size: 3vw;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    font-size: 3vw;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2{
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
