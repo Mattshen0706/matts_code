@@ -17,3 +17,16 @@ shift() (listvariable.shift)
 removes the first element of a list
 
 
+
+document.addEvenetListner("DOMContentLoaded")
+loads all elements before the page is loaded
+
+switch (n)
+switch is like an in statement block:
+however does the function direclty for you 
+break - stops the code (each case must end with break)
+use default n for unexpected value
+changes the class of the heading depending on the number
+use break 
+use default
+

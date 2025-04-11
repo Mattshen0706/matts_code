@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+
+h{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5vw;
+}
+
+
+.emojidiv{
+    padding-top: 2%;
+    width:20%;
+}
+
+.emoji{
+    width: 100%;
+    border-radius: 5vw;
+}
+
+.rowformat{
+    text-align: center;
+    justify-content: center;
+    width:60%;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    border-style: solid;
+}
+.submitbutton{
+}
+
+.checkboxtext{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    border-style: solid;
+}
+
+input[type="checkbox"] {
+    scale:3;
+    border-style: solid;
+}
+
+
+.individualcheckbox{
+    text-align: center;
+    justify-content: center;
+    width:100%;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    border-style: solid;
+}
+
